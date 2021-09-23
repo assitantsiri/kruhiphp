@@ -1,0 +1,239 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/*----------- This is the Styling Header and Logo of Pages -----------*/
+
+.navbar
+{
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    padding:0px;
+    margin: 0px;
+}
+.navbar img
+{
+    padding:2px 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.navbar-nav li
+{
+   
+    display:inline;
+    list-style-type:none;
+    color:#0000FF;
+    margin-left:10px;	
+    margin-right:10px;
+    padding: 2px;
+	
+}
+.navbar-nav li a
+{
+    text-decoration:none;
+    color:#FFFFFF;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:16px;
+}
+.navbar-brand
+{
+    font-size: 26px;
+    margin-left: 0px;
+    color: red;
+}
+
+/*-------- This is the Styling of About Page -----------*/
+
+#aboutus
+{
+    background-image: url('images/background1.jpg');
+    height: 1100px;
+}
+#aboutus h2
+{
+    margin-top: 25px;
+   
+}
+.img-wrap img
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ebd7e3;
+}
+.text-center
+{
+    color: rgb(224, 10, 160);
+    font-size: 30px;
+}
+.row p
+{
+    color: rgb(212, 209, 209);
+    font-size: 19px;
+}
+
+/*--------- This is the Styling of Footer of Pages -----------*/
+.footer-area
+{
+    padding: 10px;
+    background: #262626;
+    color: #fff;
+}
+.footer-social
+{
+    margin-top: 20px;            
+}
+.single-footer h3
+{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fafafa;
+    font-family: Merienda;
+}
+.link-area li
+{
+    padding: 3px 5px 3px 0;
+    list-style: none;
+}
+.link-area li a
+{
+    text-transform: capitalize;
+    color: #ddd;
+    font-family: Merienda;
+}
+.link-area li a i
+{
+    margin-right: 10px;
+    color: #ddd;
+}
+.link-area
+{
+    padding: 0;
+}
+.single-footer
+{
+    width: 100%;
+}
+.single-footer p
+{
+    font-family: Merienda;
+}
+.footer-social li a
+{
+    color: #fff;
+    padding: 8px;
+}
+.wedget li
+{
+    float: left;
+}
+.wedget li a img
+{
+    margin-bottom: -10px;
+}
+.copyright-area
+{
+    background: #000;
+    padding: 0px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.copyright-area p
+{
+    font-weight: 600;
+    color: #fafafa;
+}
+
+
+/*----------- This is the Styling of index.html ---------*/
+
+        .mainpage
+        {
+            width: 1328px;
+            height: 450px;
+            background-image: url('images/background1.jpg');
+        }
+        .mainpage .mainqwerty
+        {
+            margin-top: 0px;
+            text-align: left;
+            font-size: 28px;
+            color: floralwhite;
+            margin-left: 20px;
+        }
+        .imgak
+        {
+            width: 100%;
+            height: 400px;
+            margin-left: 8px;
+        }
+        .mainpage .row 
+        {
+            height: 350px;
+            width: 100%;
+            padding: 22px 15px;
+        }
+/*---------- This is the Styling of the Contact  Page -------------*/
+       
+        .contactu
+        {
+            background-image: url('images/background1.jpg');
+            height: 700px;
+        }
+        .contactu h2
+        {
+            color: powderblue;
+        }
+        .contactu .container 
+        {
+            height: 80px;
+            padding: 10px 10px;
+        }
+        .contactu .col-12 p
+        {
+            height: 200px;
+            margin-bottom: 50px;
+        }
+        .form-section
+        {
+            margin: 0px 100px;
+            margin-top: 90px;
+            margin-bottom: 30px;
+        }
+        .address a
+        {
+            color: navy;
+        }
+        .address h5
+        {
+            color: powderblue;
+        }
+        /*-------- This is the Styling of Services Page ----------*/
+        .services
+        {
+            height: 655px;
+            width: 100%;
+            background-image: url('images/background1.jpg');
+        }
+        .services .row
+        {
+            height: 350px;
+            width: 100%;
+            padding-top: 15px;
+        }
+        .servimg
+        {
+            height: 300px;
+            width: 100%;
+            margin-left: 15px;
+            margin-top: 8px;
+        }
+        
+    
+   

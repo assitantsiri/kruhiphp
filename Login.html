@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Log In Page</title>
+<style type="text/css">
+body
+{
+height:470px;
+width:280px;
+border-radius:5px;
+background-image: url('images/background1.jpg');
+}
+.box
+{
+border-radius:5px;
+position:absolute;
+background-color:#00FFFF;
+width:440px;
+height:500px;
+padding: 20px;
+left:400px;
+top:50px;
+}
+h1
+{
+text-align:center;
+}
+.ormain
+{
+    width: 300px;
+    height: 10px;
+    color: black;
+	margin-bottom:20px;
+}
+.or1
+{
+    width: 130px;
+    height: 1px;
+    float: left;
+}
+.or2
+{
+    width: 130px;
+    height: 1px;
+    float: left;
+}
+.or3
+{
+    width: 40px;
+    height: 1px;
+    float: left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.facebook
+{
+    margin-top: 20px;
+    width: 300px;
+    background-color: navy;
+    height: 48px;
+    color: cornsilk;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+	margin-bottom:20px;
+}
+.logo
+{
+    width: 100px;
+    height: 48px;
+    float: left;
+}
+.content
+{
+    width: 200px;
+    height: 48px;
+    float: left;
+	text-align:left;
+}
+a
+{
+text-decoration:none;
+color:#FFFFFF;
+}
+.google
+{
+    margin-top: 20px;
+    width: 300px;
+	color: black;
+	background-color:#FFFFFF;
+    height: 46px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+	margin-bottom:20px;
+}
+.google .Content a
+{
+width:300px;
+height:48px;
+color:#000000;
+}
+.google img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+}
+table a
+{
+text-decoration:none;
+color:#0066FF;
+}
+.hr-block hr
+{
+width:300px;
+height:1px;
+color:#CCCCCC;
+}
+.bottom-content
+{
+width:260px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+margin-top:15px;
+}
+.bottom-content a
+{
+text-decoration:none;
+color:#0066FF;
+margin-left:15px;
+}
+</style>
+</head>
+<body>
+<center>
+<div class="box">
+<h1> Welcome Back </h1>
+<div class="facebook">
+            <div class="logo"><a href="https://www.facebook.com"><img src="images/facebk1.jpg"/></a></div>
+            <div class="Content"><a href="https://www.facebook.com">Login with Facebook</a></div>
+</div>
+<div class="google">
+            <div class="logo"><a href="https://www.google.com"><img src="images/google1.png"/></a></div>
+            <div class="Content"><a href="https://www.google.com">Login with Google</a></div>
+</div>
+<div class="ormain">
+    <div class="or1"><hr/></div>
+    <div class="or3">OR</div>
+    <div class="or2"><hr/></div>
+</div>
+<form action="loginphp.php" method="POST">
+<table cellpadding="5px" cellspacing="5px" style="border-radius:8px;">
+<tr>
+<td><input type="email" name="email" placeholder="Email or Mobile Number" style="height: 30px; width: 260px; border-radius: 5px;border:0px; padding-left:15px; margin-bottom:5px;"/></td>
+</tr>
+<tr>
+<td><input type="password" name="passwd" placeholder="Password"  style="height: 30px; width: 260px; border-radius: 5px; border:0px; padding-left:15px;margin-bottom:5px;"/></td>
+</tr>
+<tr><td style="font-family:Arial, Helvetica, sans-serif;font-size:14px;"><input type="checkbox" name="checkuser"/>Remember me<a href="#">&nbsp Forgot Password?</a></td></tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" name="sub" value ="Log In"  style="height: 30px; width: 180px; border-radius: 5px; text-align: center; background-color: blue; color: white; font-size: 20px; border:0px;"/></td>
+</tr>
+</table>
+</form>
+<div class="hr-block"><hr/></div>
+<div class="bottom-content">Don't have an account?<a href="registation.html">Sign In </a></div>
+</div>
+</center>
+</body>
+</html>
